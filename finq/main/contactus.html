@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            height: 100vh;
+            background: linear-gradient(90deg, #22b3ba, #fffbfb);
+        }
+        #main{
+            background-color: aliceblue;
+            opacity: 0.5;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+        #card{
+            justify-content: center;
+        }
+        #img{
+            float:right;
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <form name="form" method="post" action="./contact.php">
+        <div id="card">
+        <label for="uname">Name<input type="text" id="uname" name="uname"></label><br>
+        Email<input type="text" name="email"><br>
+        Age<input type="number" name="age"><br>
+        Phone<input type="number" name="phone"><br>
+        Query<input type="text" name="query"><br>
+        <button type="submit">submit</button>
+    </div>
+    </form>
+</div>
+    <div id="img">
+    <img src="./logo.png">
+    </div>
+    
+
+</body>
+</html>

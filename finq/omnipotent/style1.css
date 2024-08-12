@@ -1,0 +1,213 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 30%;
+   
+}
+   
+.contents-container{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 1100px;
+    max-width: 100%;
+    min-height: 480px;
+    margin:150px auto 50px;
+}
+
+.omni{
+    position: absolute;
+    margin: 30px 350px;
+    margin-top: 50px;
+}
+.tagline{
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+    
+    font-family: 'Britannic', sans-serif;
+    margin-top: 200px;
+    
+}
+.content-img{
+    position: absolute;
+    
+    border-radius: 30%;
+    right: 80px;
+}
+.content{
+   margin-left: 50px;
+   margin-top: 30px;
+   background-color: #9AD0C2;
+}
+ .tagline1{
+    display: grid;
+    position: absolute;
+    padding: 30px;
+    font-size: 20px;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr  ;
+    left: 20px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+ } 
+ .content-img1{
+    margin-right: 20px;
+ }
+ .tagline2{
+    text-align: justify;
+    line-height: 2;
+    margin-top: 50px;
+    margin-left: 80px
+    ;
+   flex-grow: 2;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr ;
+    gap: 5rem;
+    font-family: "Edu NSW ACT Foundation", cursive;
+   
+ }
+ .content-img2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+   
+ }
+ .contents-container1{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    height: 600px;
+    max-width: 100%;
+    min-height: 480px;
+    margin:150px auto 50px;
+}
+.tagline3{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 200px;
+  
+    margin-left: 500px;
+   font-size: larger;
+   color:brown;
+   line-height: 2;
+}
+
+.contents-container2 {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 1100px;
+    max-width: 100%;
+    min-height: 480px;
+    margin: 150px auto 50px;
+}
+.heading {
+    position: absolute; /* Position the heading */
+    top: 20px; /* Adjust the top position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 1; /* Ensure the heading is above taglines */
+    text-align: center; /* Center the text */
+}
+
+.tagline4{
+    position: relative;
+    display: flex;
+    line-height: 2;
+    justify-content: center;
+    text-align: center;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: black;
+    padding: 40px;
+    font-size: x-large;
+    text-decoration: underline;
+
+}
+.tagline5,
+.tagline6 {
+    position: relative;
+    display: flex;
+    line-height: 2;
+    justify-content: center; /* Center horizontally */
+    text-align: center;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: black;
+    padding: 40px;
+}
+.merits {
+    margin-top: 20px; /* Add space between plan description and merits */
+}
+
+.merits li {
+    list-style-type: disc; /* Use disc bullets for merits */
+    margin-left: 50px; /* Add indentation for better readability */
+    margin-bottom: 20px;
+    font-family: "Edu NSW ACT Foundation", cursive; /* Make merits bold */
+}
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color:  #49949e;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 200px;
+    text-decoration: none;
+   
+}
+
+.subscribe-btn:hover {
+    background-color: white;
+    text-decoration: none;
+}
+  
+   
+  
+  
+  

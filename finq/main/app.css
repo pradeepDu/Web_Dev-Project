@@ -1,0 +1,178 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: poppins, sans-serif;
+    
+  }
+  
+  .login-button {
+    background-color: #f8f9fa; /* Same color as navbar */
+    border: 2px solid #000; /* Black border */
+    color: #000; /* Black text */
+    padding: 8px 20px;
+    margin-left: 20px;
+    border-radius: 30px; /* Capsule border */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #d8d9da; /* Darker color on hover */
+  }
+ 
+  .curved{
+    background:#265073;
+    color: #fff;
+    text-align: center;
+  }
+  .curved h1{
+    font-size: 6rem;
+    font-family: 'poppins', sans-serif;
+    margin-top: 0;
+  }
+  .curved p{
+    font-size: 2rem;
+    font-family: 'poppins', sans-serif;
+    margin-top: 0 5rem 0 5rem;
+  }
+  .curved svg{
+    display: block;
+  }
+  img{
+    position: relative;
+    height: 100px;
+    width: 100px;
+  }
+
+  .box{
+    background:white;
+    padding: 2rem;
+    box-shadow: 20px 20px 2000px;
+  }
+
+  .blog1,.head{
+    text-align: center;
+  }
+  .head{
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  h3{
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+ul{
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+.comparison-card {
+    border-radius: 15px; /* Adjust border-radius for curved borders */
+    
+    padding: 20px;
+  }
+  
+  /* Rest of the CSS remains the same */
+  
+  .comparison-header {
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+  }
+  
+  .comparison-table {
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .cell {
+    flex: 1;
+    padding: 5px 10px;
+  }
+  
+  .highlighted {
+    background-color: #f0f0f0;
+  }
+  .supp{
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    padding-left: 40rem;
+    
+  }
+  .languages .flex{
+    flex-wrap: wrap;
+
+  }
+  .languages .card{
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+
+  }
+  .languages .card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+.languages .card:hover{
+    transform: translateY(-15px);
+}  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex-grow: 1;
+  }
+  .footer-right,img{
+    size: 2px;
+  }
+  .highlighted-text {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .footer-links,
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li a,
+  .social-links li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px; /* Adjust margin between links */
+  }
+  
+  .footer-links li a:hover,
+  .social-links li a:hover {
+    color: #007bff;
+  }
+  
+
+
+  .comparison-card{
+      background-color: #2D9596;
+  }

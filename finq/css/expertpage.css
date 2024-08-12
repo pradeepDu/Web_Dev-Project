@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #F0F3BD;
+}
+
+.maincontainer {
+    display: flex;
+    height: 100%;
+   
+ 
+
+}
+
+.sidebar {
+    width: 20vw;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.content-box {
+    flex: 1;
+
+    padding: 20px;
+    background-color: #fffff3;
+}
+
+.query-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+
+#addq{
+    color: white;
+    background-color: darkblue;
+    border: none;
+    height:5vh;
+    border-radius: 10px;
+    cursor: pointer;
+    width:15vw;
+    margin:10px;
+    
+
+}
+
+
+.resolved-query-box{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: auto;
+}
+

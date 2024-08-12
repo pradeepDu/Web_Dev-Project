@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            background-color: white; 
+        }
+    
+        .sec {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+    
+        #content {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+    
+        #but {
+            background-color:  #2c88d5;
+            height: 50px;
+            border-radius: 25px;
+            text-decoration: none;
+            width: 250px;
+            color: white;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 50px; 
+            cursor: pointer;
+            transition: background-color 0.3s ease; 
+        }
+    
+        #but:hover {
+            background-color: white; 
+        }
+    
+        .Blue {
+            color: rgb(42, 119, 161);
+            font-weight: 700;
+        }
+    
+        .head {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+    
+        @media (max-width: 600px) {
+            .head {
+                font-size: 1.5rem;
+            }
+        }
+    
+        @media (max-width: 400px) {
+            .head {
+                font-size: 1.2rem;
+            }
+        }
+         .head {
+            color: rgb(42, 119, 161);
+            padding: 20px;
+            transition: color 0.3s ease; 
+            cursor: pointer; 
+        }
+
+        .head:hover {
+            color: #2c88d5; 
+        }
+        .image-container {
+        position: relative;
+        overflow: hidden;
+        height: 52vh;
+        width: 52vw;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)); 
+        opacity: 0; 
+        transition: opacity 0.3s ease;
+    }
+
+    .image-container:hover::before {
+        opacity: 1; 
+    }
+    .footer {
+            background-color: whitesmoke;
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color:black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        a{text-decoration: none;}
+        
+    </style>
+    
+</head>
+<body>
+    <div class="sec">
+    <div class="image-container">
+    <img class="image" src="https://media.licdn.com/dms/image/C4D12AQH3moW8i3ewrw/article-cover_image-shrink_423_752/0/1628589993746?e=1712188800&v=beta&t=s70kDOxD9kYMXB_W2w53rL1_O_zyu_jIHV2ZSP-DJsw" alt="team"></center>
+    
+    </div>
+   
+
+    </div>
+    <div class="sec">
+    <div class="head"> <p>ABOUT US</p>
+        <script>
+              const aboutUsText = document.querySelector('.head p');
+
+    aboutUsText.addEventListener('mouseover', () => {
+    aboutUsText.style.transform = 'scale(1.1)'; 
+    aboutUsText.style.color = '#2c88d5'; 
+    });
+
+    aboutUsText.addEventListener('mouseout', () => {
+    aboutUsText.style.transform = 'scale(1)'; 
+    aboutUsText.style.color = 'rgb(42, 119, 161)'; 
+    });
+        </script>
+    </div>    
+  
+   <div id="content">
+    <p>Welcome to Fincruise! We're your trusted source for clear, actionable financial advice. Our team of experts is dedicated to helping you navigate the world of finance with confidence and clarity. Whether you're saving for the future, investing wisely, or planning for retirement, we're here to support you every step of the way.   
+    Whether you're just starting your financial journey or looking to optimize your existing strategies, Fincrusive is here to help. Through our articles, guides, and personalized consultations, we empower you to take control of your finances and achieve long-term prosperity.
+    </p>
+    <p>
+        Whether you're striving to build wealth, minimize debt, or secure your financial future, Fincruise is committed to helping you succeed. With our dedication to transparency, integrity, and client-centric service, you can trust us to be your partner in achieving financial success.
+
+        Join the Fincruise community today and embark on a journey towards financial empowerment and prosperity. Let us be your compass as you navigate the complexities of the financial landscape, guiding you towards a brighter and more secure future.
+
+    </p>
+    </div>
+</div>
+
+&nbsp;
+<div class="sec">
+
+    <button id="but"><a href="./team.html" >Meet our Team</a></button>
+
+</div>
+<footer class="footer">
+    <p>&copy; 2024 Fincruise. All rights reserved.</p>
+    <p>Designed by <a href="#">Rucha Gavade</a></p>
+</footer><script>
+$(function(){
+	$(".typed").typed({
+		strings: ["Developers.", "Designers.", "People."],
+		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+		stringsElement: null,
+		// typing speed
+		typeSpeed: 30,
+		// time before typing starts
+		startDelay: 1200,
+		// backspacing speed
+		backSpeed: 20,
+		// time before backspacing
+		backDelay: 500,
+		// loop
+		loop: true,
+		// false = infinite
+		loopCount: 5,
+		// show cursor
+		showCursor: false,
+		// character for cursor
+		cursorChar: "|",
+		// attribute to type (null == text)
+		attr: null,
+		// either html or text
+		contentType: 'html',
+		// call when done callback function
+		callback: function() {},
+		// starting callback function before each string
+		preStringTyped: function() {},
+		//callback for every typed string
+		onStringTyped: function() {},
+		// callback for reset
+		resetCallback: function() {}
+	});
+});</script>
+
+</html>
+
